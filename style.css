@@ -3,7 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 
 body {
@@ -14,7 +14,6 @@ body {
     background-image: url("i/backg.jpg");
     background-position: center center;
     background-size: max(1200px, 100vw);
-    background-repeat: no-repeat;
     height: 648px;
     position: relative;
 }
@@ -23,25 +22,26 @@ body {
 .main .box {
     height: 648px;
     width: 100%;
-    opacity: 0.69;
+    opacity: 0.72;
     position: absolute;
     top: 0;
     background-color: black;
 }
 
 nav1 {
+    margin: auto;
     max-width: 60vw;
     display: flex;
     align-items: center;
-    height: 102px;
     justify-content: space-between;
-    margin: auto;
+    height: 102px;
+ 
     
    
 }
 
 nav1 img {
-    width: 130px;
+    width: 150px;
     position: relative;
    
 }
@@ -53,6 +53,8 @@ nav1 button {
 
 .tabs {
     font-family: 'Martel Sans', sans-serif;
+    gap: 23px;
+    padding: 0 35px;
     height: calc(100% - 100px);
     display: flex;
     align-items: center;
@@ -60,14 +62,13 @@ nav1 button {
     flex-direction: column;
     color: white;
     position: relative;
-    gap: 23px;
-    padding: 0 30px;
+    
 }
 
 .tabs> :nth-child(1) {
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
-    font-size: 48px;
+    font-size: 60px;
     text-align: center;
 }
 
@@ -85,12 +86,12 @@ nav1 button {
 
 .separation {
     height: 7px;
-    background-color: rgb(46, 44, 44);
+    background-color: rgb(55, 53, 53);
     position: relative;
     z-index: 20;
 }
 
-.btn {
+.button {
     padding: 3px 8px;
     font-weight: 400;
     color: white;
@@ -102,7 +103,7 @@ nav1 button {
 }
 
 .btn-red {
-    background-color: white;
+    background-color: red;
     color: white;
     padding: 3px 24px;
     font-size: 20px;
@@ -110,7 +111,7 @@ nav1 button {
     font-weight: 400;
 }
 
-.btn-red-sm {
+.btn-red-1 {
     background-color: red;
     color: white;
 }
@@ -119,13 +120,13 @@ nav1 button {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    gap: 18px;
 }
 
 .main input {
     padding: 7px 101px 8px 14px;
     color: white;
-    font-size: 12px;
+    font-size: 13px;
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(246, 238, 238, 0.5);
@@ -315,8 +316,8 @@ footer .questions {
     gap: 23px;
 }
 
-.btn{
-    padding-top: 5px;
+.button{
+    padding-top: 7px;
 
 }
 .name{
