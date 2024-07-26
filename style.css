@@ -20,9 +20,9 @@ body {
 
 
 .main .box {
-    height: 648px;
+    height: 100vh;
     width: 100%;
-    opacity: 0.72;
+    opacity: 0.68;
     position: absolute;
     top: 0;
     background-color: black;
